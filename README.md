@@ -17,6 +17,9 @@
 | etcdctl| 3.3.13|
 
 
-- [树]
-  - [cleanRootCA.sh](用于清理所有证书)
+- [目录结构]
+  - [cleanRootCA.sh][清理所有证书]
+  - [createAllCert.sh][创建所有证书脚本内函数未打开]
+  - [extandCluster.sh][sh extandCluster.sh -A创建所有证书]
+  
   
