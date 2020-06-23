@@ -16,3 +16,7 @@
 | etcd| 3.3.13|
 | etcdctl| 3.3.13|
 
+
+- [树]
+  - [cleanRootCA.sh](用于清理所有证书)
+  
