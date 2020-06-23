@@ -13,8 +13,11 @@
 ## 主要组件版本
 | 组件 | 版本 |
 | --- | --- | 
-| etcd| 3.3.13|
-| etcdctl| 3.3.13|
+| etcd | 3.3.13 |
+| etcdctl | 3.3.13 |
+| cfssl | 1.2.0 |
+| cfssl-certinfo | 1.2.0 |
+| cfssljson | 1.2.0 |
 
 
 ### [cfsslExtendCluster目录结构]
