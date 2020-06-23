@@ -17,22 +17,14 @@
 | etcdctl| 3.3.13|
 
 
-- [目录结构]
-  - [cleanRootCA.sh]
-    
-    
-    
-    `清理所有证书,慎用`
-  - [createAllCert.sh]
+###[cfsslExtendCluster目录结构]
+  - [cleanRootCA.sh] [清理所有证书,慎用]
+  - [installCfsslCommand.sh] [安装cfssl工具]
+  - [createAllCert.sh] [创建所有服务器证书]
+  - [extandCluster.sh] [-A调用createAllCert.sh创建所有证书]
   
-    `创建所有证书脚本内函数未打开`
     
-    `sh extandCluster.sh -A调用createAllCert.sh创建所有证书`
-    
-  - [extandCluster.sh]
-  
-  
-  -- [证书生成脚本]
+###[extandCluster.sh][证书生成脚本]
     
     `sh extandCluster.sh -A创建所有证书`
     
@@ -55,5 +47,9 @@
     `sh extandCluster.sh -S server-IP -I server_id -G 生成单独扩展服务端证书,IP绑定`
     
     `sh extandCluster.sh -P 检查所有证书绑定的HOST`
-  
-  
+  - [globalClusterInfo.sh]
+  	`配置证书服务器IP`
+	- [clusterArray]
+	-- [etcd1,etcd2,etcd3]
+	-- [etcd1,etcd2,etcd3,etcd4,etcd5]
+	-- [etcd1]
