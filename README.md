@@ -22,9 +22,11 @@
     
     
     
-    `清理所有证书`
+    `清理所有证书,慎用`
   - [createAllCert.sh]
-    -- [创建所有证书脚本内函数未打开]
+  
+    `创建所有证书脚本内函数未打开`
+    `sh extandCluster.sh -A调用createAllCert.sh创建所有证书`
   - [extandCluster.sh]
     -- [sh extandCluster.sh -A创建所有证书]
   
