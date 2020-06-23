@@ -30,6 +30,9 @@
     `sh extandCluster.sh -A调用createAllCert.sh创建所有证书`
     
   - [extandCluster.sh]
+  
+  
+  -- [证书生成脚本]
     
     `sh extandCluster.sh -A创建所有证书`
     
