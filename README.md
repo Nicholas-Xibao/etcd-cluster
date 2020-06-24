@@ -56,3 +56,4 @@
 	-- [etcd1,etcd2,etcd3]
 	-- [etcd1,etcd2,etcd3,etcd4,etcd5]
 	-- [etcd1]
+	-- 配置/etc/hosts写入映射信息
